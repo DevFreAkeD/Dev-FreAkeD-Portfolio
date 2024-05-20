@@ -2,7 +2,8 @@
 
 This is my personal portfolio built with Vite + React.
 
-![Uploading Untitled design (13).png…]()
+![Portfolio Cover](https://github.com/DevFreAkeD/Dev-FreAkeD-Portfolio/assets/32740788/f88caac3-19d9-4b55-9dd0-2ded0f7cc74e)
+
 
 
 
