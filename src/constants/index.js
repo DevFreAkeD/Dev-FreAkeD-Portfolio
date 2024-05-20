@@ -136,8 +136,8 @@ export const collabApps = [
 export const socials = [
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discord,
+    title: "Github",
+    iconUrl: github,
     url: "#",
   },
   {
@@ -154,20 +154,20 @@ export const socials = [
   },
   {
     id: "3",
-    title: "Github",
-    iconUrl: github,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
+    title: "Discord",
+    iconUrl: discord,
     url: "#",
   },
   {
     id: "4",
     title: "LinkedIn",
     iconUrl: linkedin,
+    url: "#",
+  },
+  {
+    id: "5",
+    title: "Facebook",
+    iconUrl: facebook,
     url: "#",
   },
 ];
