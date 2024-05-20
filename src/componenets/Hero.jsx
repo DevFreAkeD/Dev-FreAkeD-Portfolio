@@ -1,10 +1,10 @@
 import Section from "./Section";
-import { curve, background } from "../assets"; // Assuming you have imported the background image
+import { curve, heroBackground } from "../assets"; // Assuming you have imported the background image
 import useTypingEffect from "./js/TypingEffect";
 import Button from "./Button";
 
 const Hero = () => {
-  const { text } = useTypingEffect(["a Full-Stack Developer.", "a Gamer. ", "an Entrepreneur."]);
+  const { text } = useTypingEffect(["a Full-Stack Developer.", "a Gamer."]);
   
 
   return (
@@ -49,14 +49,15 @@ const Hero = () => {
               alt="Curve"
             />
           </span>
-          <p className="body-1 mx-auto pt-5 mb-6 text-n-2 lg:mb-8">
-          I'm <b>Tushar Singh</b>, also known as <b>FreAkeD</b> in the gaming world. I began my coding journey in 2017, scripting for SA-MP servers.
-          As a front-end enthusiast, I'm currently expanding my skills to become a full-stack developer. I love gaming and am passionate about exploring and growing in tech.
+          <p className="body-1 mx-50 pt-5 mb-6 text-n-2 lg:mb-6">
+          I'm <b>Tushar Nagar</b>, also known as <b>FreAkeD</b> in the gaming world. I began my coding journey in 2017, scripting for SA-MP servers.
+          As a front-end enthusiast, I'm currently expanding my skills to become a full-stack developer.
+          I love gaming and am passionate about exploring and growing in tech.
           </p>
         </h1>
       </div>
-      <div className="absolute inset-0 w-auto" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center', filter: 'blur(5px)' }}></div> {/* Background image with blur */}
-      <div className="absolute inset-0 bg-black opacity-70" />
+      <div className="absolute inset-0 w-auto" style={{ backgroundImage: `url(${heroBackground})`, backgroundSize: 'cover', backgroundPosition: 'center', filter: 'blur(2px)' }}></div> {/* Background image with blur */}
+      <div className="absolute inset-0 bg-black opacity-50" />
     </Section>
   );
 };
