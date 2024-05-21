@@ -6,6 +6,7 @@ const TechCard = ({ heading, cards }) => {
     yellow: 'border-yellow-500 text-yellow-500',
     red: 'border-red-500 text-red-500',
     gray: 'border-gray-500 text-gray-500',
+    orange: 'border-orange-500 text-orange-500'
   };
 
   return (
