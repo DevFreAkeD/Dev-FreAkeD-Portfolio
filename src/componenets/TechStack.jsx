@@ -39,11 +39,11 @@ const TechStack = () => {
               cards={[
                 {
                   buttons: [
-                    { text: "C", colour: "blue" },
-                    { text: "C++", colour: "green" },
-                    { text: "HTML", colour: "purple" },
-                    { text: "CSS", colour: "purple" },
-                    { text: "JavaScript", colour: "yellow" },
+                    { text: "C", color: "blue" },
+                    { text: "C++", color: "green" },
+                    { text: "HTML", color: "purple" },
+                    { text: "CSS", color: "purple" },
+                    { text: "JavaScript", color: "yellow" },
                   ],
                 },
               ]}
@@ -54,10 +54,10 @@ const TechStack = () => {
               cards={[
                 {
                   buttons: [
-                    { text: "ReactJS", colour: "blue" },
-                    { text: "TailwindCSS", colour: "green" },
-                    { text: "Bootstrap", colour: "purple" },
-                    { text: "ExpressJS", colour: "yellow" },
+                    { text: "ReactJS", color: "blue" },
+                    { text: "TailwindCSS", color: "green" },
+                    { text: "Bootstrap", color: "purple" },
+                    { text: "ExpressJS", color: "yellow" },
                   ],
                 },
               ]}
@@ -68,10 +68,10 @@ const TechStack = () => {
               cards={[
                 {
                   buttons: [
-                    { text: "MySQL", colour: "blue" },
-                    { text: "MongoDB", colour: "green" },
-                    { text: "SQL Lite", colour: "purple" },
-                    { text: "PostgreSQL", colour: "orange" },
+                    { text: "MySQL", color: "blue" },
+                    { text: "MongoDB", color: "green" },
+                    { text: "SQL Lite", color: "purple" },
+                    { text: "PostgreSQL", color: "orange" },
                   ],
                 },
               ]}
@@ -82,18 +82,18 @@ const TechStack = () => {
               cards={[
                 {
                   buttons: [
-                    { text: "NPM", colour: "red" },
-                    { text: "NodeJS", colour: "green" },
-                    { text: "Vercel", colour: "gray" },
-                    { text: "Netlify", colour: "red" },
-                    { text: "PHPMyAdmin", colour: "orange" },
+                    { text: "NPM", color: "red" },
+                    { text: "NodeJS", color: "green" },
+                    { text: "Vercel", color: "gray" },
+                    { text: "Netlify", color: "red" },
+                    { text: "PHPMyAdmin", color: "orange" },
                   ],
                 },
               ]}
             />
           </div>
         </div>
-        <div className="w-full lg:w-1/2 pl-2 lg:pl-5 flex mt justify-center md:pt-20">
+        <div className="w-full lg:w-1/2 pl-2 lg:pl-5 flex mt justify-center md:pt-10">
           {/* Right part */}
           <TechRing apps={collabApps} />
         </div>
