@@ -1,17 +1,21 @@
 import React from "react";
 import Section from "./Section";
-import { curve, stack } from "../assets";
+import { curve } from "../assets";
 import { collabApps } from "../constants";
+import TechCard from "./design/TechCard";
+import TechRing from "./design/TechRing";
 
 const TechStack = () => {
   return (
     <Section
       className="pt-[7rem] -mt-[5.25rem]"
-      crosses crossesOffset="lg:translate-y-[5.25rem]"
-      customPaddings id="tech-stack"
+      crosses
+      crossesOffset="lg:translate-y-[5.25rem]"
+      customPaddings
+      id="tech-stack"
     >
-      <div className="container relative z-2 text-center"> {/* Centering text */}
-        <h1 className="h4 mb-6 inline-block relative"> {/* Using inline-block to allow positioning */}
+      <div className="container relative z-2 text-center">
+        <h1 className="h4 mb-6 inline-block relative">
           <span className="inline-block relative">
             Tech Stack
             <img
@@ -24,43 +28,74 @@ const TechStack = () => {
           </span>
         </h1>
       </div>
-
-      <div className="flex justify-center items-center lg:ml-auto xl:w-[38rem] mt-4 mb-4 pt-10 pb-10">
-        <div className="relative flex w-[22rem] aspect-square border border-n-6 rounded-full scale-75 md:scale-100">
-          <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
-            <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
-              <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
-                <img
-                  src={stack}
-                  width={48}
-                  height={48}
-                  alt="stack"
-                />
-              </div>
-            </div>
+      <div className="container flex flex-col lg:flex-row justify-center items-center mt-8 pb-10">
+        <div className="w-full lg:w-1/2 pr-2 lg:pr-4 mb-8 lg:mb-0">
+          {/* Left part */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            {/* Cards */}
+            {/* Card 1 */}
+            <TechCard
+              heading="Languages"
+              cards={[
+                {
+                  buttons: [
+                    { text: "C", color: "blue" },
+                    { text: "C++", color: "green" },
+                    { text: "HTML", color: "purple" },
+                    { text: "CSS", color: "purple" },
+                    { text: "JavaScript", color: "yellow" },
+                  ],
+                },
+              ]}
+            />
+            {/* Card 2 */}
+            <TechCard
+              heading="Libraries/Frameworks"
+              cards={[
+                {
+                  buttons: [
+                    { text: "ReactJS", color: "blue" },
+                    { text: "TailwindCSS", color: "green" },
+                    { text: "Bootstrap", color: "purple" },
+                    { text: "ExpressJS", color: "yellow" },
+                  ],
+                },
+              ]}
+            />
+            {/* Card 3 */}
+            <TechCard
+              heading="Databases"
+              cards={[
+                {
+                  buttons: [
+                    { text: "MySQL", color: "blue" },
+                    { text: "MongoDB", color: "green" },
+                    { text: "SQL Lite", color: "purple" },
+                    { text: "PostgreSQL", color: "orange" },
+                  ],
+                },
+              ]}
+            />
+            {/* Card 4 */}
+            <TechCard
+              heading="Tools"
+              cards={[
+                {
+                  buttons: [
+                    { text: "NPM", color: "red" },
+                    { text: "NodeJS", color: "green" },
+                    { text: "Vercel", color: "gray" },
+                    { text: "Netlify", color: "red" },
+                    { text: "PHPMyAdmin", color: "orange" },
+                  ],
+                },
+              ]}
+            />
           </div>
-
-          <ul className="absolute inset-0 flex justify-center items-center">
-            {collabApps.map((app, index) => (
-              <li
-                key={app.id}
-                className={`absolute flex justify-center items-center transform origin-center rotate-${index * 45}`}
-                style={{ transform: `rotate(${index * 45}deg) translateX(11rem)` }}
-              >
-                <div
-                  className={`relative flex justify-center items-center w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl transform -rotate-${index * 45}`}
-                >
-                  <img
-                    className="m-auto"
-                    width={app.width}
-                    height={app.height}
-                    alt={app.title}
-                    src={app.icon}
-                  />
-                </div>
-              </li>
-            ))}
-          </ul>
+        </div>
+        <div className="w-full lg:w-1/2 pl-2 lg:pl-5 flex mt justify-center md:pt-20">
+          {/* Right part */}
+          <TechRing apps={collabApps} />
         </div>
       </div>
     </Section>
