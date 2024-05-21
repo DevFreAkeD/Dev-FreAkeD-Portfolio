@@ -10,7 +10,7 @@ const TechCard = ({ heading, cards }) => {
             {card.buttons.map((button, btnIndex) => (
               <a
                 key={btnIndex}
-                className={`bg-transparent border border-${button.color}-500 text-${button.color}-500 px-4 py-2 rounded-md hover:text-white transition-colors duration-300`}
+                className={`bg-transparent border border-${button.colour}-500 text-${button.colour}-500 px-4 py-2 rounded-md hover:text-white transition-colors duration-300`}
               >
                 {button.text}
               </a>
