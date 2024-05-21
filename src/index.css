@@ -6,6 +6,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* TechStack.css */
+
+@keyframes rotateIcons {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-icons {
+  animation: rotateIcons 20s linear infinite;
+}
+
+
+
+
 :root {
   --font-sora: "Sora", sans-serif;
   --font-code: "Source Code Pro", monospace;
