@@ -1,4 +1,13 @@
 const TechCard = ({ heading, cards }) => {
+  const colorClasses = {
+    blue: 'border-blue-500 text-blue-500',
+    green: 'border-green-500 text-green-500',
+    purple: 'border-purple-500 text-purple-500',
+    yellow: 'border-yellow-500 text-yellow-500',
+    red: 'border-red-500 text-red-500',
+    gray: 'border-gray-500 text-gray-500',
+    orange: 'border-orange-500 text-orange-500',
+  };
   return (
     <div className="border border-n-1/15 rounded-lg p-4 relative">
       <div className="blur-bg absolute inset-0 rounded-lg"></div>
@@ -14,7 +23,7 @@ const TechCard = ({ heading, cards }) => {
             {card.buttons.map((button, btnIndex) => (
               <a
                 key={btnIndex}
-                className={`bg-transparent border border-${button.color}-500 text-${button.color}-500 px-4 py-2 rounded-md hover:text-white transition-colors duration-300`}
+                className={`bg-transparent border px-4 py-2 rounded-md hover:text-white transition-colors duration-300 ${colorClasses[button.color]}`}
               >
                 {button.text}
               </a>
