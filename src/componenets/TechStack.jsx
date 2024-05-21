@@ -87,7 +87,7 @@ const TechStack = () => {
                     { text: "NPM", color: "yellow" },
                     { text: "NodeJS", color: "green" },
                     { text: "Vercel", color: "gray" },
-                    { text: "Figma", color: "orange" },
+                    { text: "Figma", color: "purple" },
                     { text: "PHPMyAdmin", color: "orange" },
                     { text: "Netlify", color: "red" },
                     { text: "GitHub", color: "blue" },
