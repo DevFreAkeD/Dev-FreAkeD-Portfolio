@@ -42,8 +42,10 @@ const TechStack = () => {
                     { text: "C", color: "blue" },
                     { text: "C++", color: "green" },
                     { text: "HTML", color: "purple" },
-                    { text: "CSS", color: "purple" },
+                    { text: "PHP", color: "gray" },
+                    { text: "CSS", color: "orange" },
                     { text: "JavaScript", color: "yellow" },
+                    { text: "Java", color: "red" },
                   ],
                 },
               ]}
@@ -82,7 +84,7 @@ const TechStack = () => {
               cards={[
                 {
                   buttons: [
-                    { text: "NPM", color: "red" },
+                    { text: "NPM", color: "yellow" },
                     { text: "NodeJS", color: "green" },
                     { text: "Vercel", color: "gray" },
                     { text: "Netlify", color: "red" },
