@@ -153,7 +153,7 @@ export const projects = [
   },
   {
     id: "1",
-    title: "Typiing Tester",
+    title: "Typing Tester",
     text: "HTML, CSS, JavaScript",
     imageUrl: typingtester,
     colorful: true,
