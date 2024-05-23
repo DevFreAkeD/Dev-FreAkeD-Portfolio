@@ -1,17 +1,19 @@
-import React from "react";
 import Section from "./Section";
-import { curve } from "../assets";
-import ClipPath from "../assets/svg/ClipPath";
+import { curve, grid } from "../assets";
+import { SectionGradient } from "./design/SectionGradient";
+import { projects } from "../constants";
 
 const Projects = () => {
   return (
     <Section
-    className="pt-[7rem] -mt-[5.25rem]"
-    crosses crossesOffset="lg:translate-y-[5.25rem]"
-    customPaddings id="projects"
-  >
-      <div className="container relative z-2 text-center"> {/* Centering text */}
-        <h1 className="h4 mb-6 inline-block relative"> {/* Using inline-block to allow positioning */}
+      className="pt-[7rem] -mt-[5.25rem]"
+      crosses
+      crossesOffset="lg:translate-y-[5.25rem]"
+      customPaddings
+      id="projects"
+    >
+      <div className="container relative z-2 text-center">
+        <h1 className="h4 mb-6 inline-block relative">
           <span className="inline-block relative">
             Projects
             <img
@@ -24,56 +26,51 @@ const Projects = () => {
           </span>
         </h1>
       </div>
-
-      <div className="flex flex-wrap gap-10 mb-10">
-          {benefits.map((item) => (
-            <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
-              style={{
-                backgroundImage: `url(${item.backgroundUrl})`,
-              }}
-              key={item.id}
-            >
-              <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-                <h5 className="h5 mb-5">{item.title}</h5>
-                <p className="body-2 mb-6 text-n-3">{item.text}</p>
-                <div className="flex items-center mt-auto">
-                  <img
-                    src={item.iconUrl}
-                    width={48}
-                    height={48}
-                    alt={item.title}
-                  />
-                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
-                    Explore more
-                  </p>
-                  <Arrow />
-                </div>
-              </div>
-
-              {item.light && <GradientLight />}
-
+      <SectionGradient />
+      <div className="container mt-7">
+        <div className="relative grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 md:gap-6 pb-[7rem]">
+          {projects.map((item) => {
+            return (
               <div
-                className="absolute inset-0.5 bg-n-8"
-                style={{ clipPath: "url(#benefits)" }}
+                className={`md:flex even:md:translate-y-[2.5rem] p-0.25 rounded-[1.25rem] ${
+                  item.colorful ? "bg-conic-gradient" : "bg-n-6"
+                }`}
+                key={item.id}
+                style={{ height: "100%" }}
               >
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
-                  {item.imageUrl && (
+                <div className="relative p-4 bg-n-8 rounded-[1.25rem] overflow-hidden flex flex-col justify-between h-full">
+                  <div className="absolute top-0 left-0">
                     <img
-                      src={item.imageUrl}
-                      width={380}
-                      height={362}
-                      alt={item.title}
-                      className="w-full h-full object-cover"
+                      className="w-full"
+                      src={grid}
+                      width={300}
+                      height={300}
+                      alt="Grid"
                     />
-                  )}
+                  </div>
+                  <div className="relative z-1 flex flex-col justify-between">
+                    <div>
+                      <div className="mb-5">
+                        <img
+                          className="w-full"
+                          src={item.imageUrl}
+                          width={200}
+                          height={120}
+                          alt={item.title}
+                        />
+                      </div>
+                    </div>
+                    <div>
+                      <h6 className="h5 mb-2">{item.title}</h6>
+                      <p className="body-4 text-n-4">{item.text}</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-
-              <ClipPath />
-            </div>
-          ))}
+            );
+          })}
         </div>
+      </div>
     </Section>
   );
 };
