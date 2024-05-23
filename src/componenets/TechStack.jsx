@@ -56,8 +56,9 @@ const TechStack = () => {
               cards={[
                 {
                   buttons: [
-                    { text: "ReactJS", color: "blue" },
-                    { text: "TailwindCSS", color: "green" },
+                    { text: "ReactJS", color: "green" },
+                    { text: "TailwindCSS", color: "blue" },
+                    { text: "ViteJS", color: "red" },
                     { text: "Bootstrap", color: "purple" },
                     { text: "ExpressJS", color: "yellow" },
                   ],
@@ -87,8 +88,10 @@ const TechStack = () => {
                     { text: "NPM", color: "yellow" },
                     { text: "NodeJS", color: "green" },
                     { text: "Vercel", color: "gray" },
-                    { text: "Netlify", color: "red" },
+                    { text: "Figma", color: "purple" },
                     { text: "PHPMyAdmin", color: "orange" },
+                    { text: "Netlify", color: "red" },
+                    { text: "GitHub", color: "blue" },
                   ],
                 },
               ]}
