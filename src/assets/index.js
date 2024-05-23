@@ -1,6 +1,8 @@
 import freaked from "./freaked.png";
 import background from "./background.png";
 import heroBackground from "./hero/Hero-background.png";
+import gradient from "./gradient.png";
+import grid from "./grid.png"
 import curve from "./hero/curve.png";
 import discord from "./social/discord.svg"
 import twitter from "./social/twitter-x.svg"
@@ -23,6 +25,12 @@ import mongodb from "./techstack/mongodb.svg"
 import vercel from "./techstack/vercel-light.svg"
 import tailwind from "./techstack/tailwind.svg"
 import tools from "./techstack/tools-icon.png"
+import discordproject from "./projects/discord-clone.png"
+import spotifyproject from "./projects/spotify-clone.png"
+import dalleproject from "./projects/dalle-clone.png"
+import githubcover from "./projects/github-cover.png"
+import codevcompile from "./projects/CoDevCompile.png"
+import typingtester from "./projects/typing-tester.png"
 
 export {
   freaked,
@@ -50,4 +58,12 @@ export {
   javascripimg,
   tailwind,
   tools,
+  gradient,
+  grid,
+  spotifyproject,
+  dalleproject,
+  discordproject,
+  githubcover,
+  codevcompile,
+  typingtester,
 };
