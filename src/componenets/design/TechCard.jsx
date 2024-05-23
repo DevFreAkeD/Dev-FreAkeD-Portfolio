@@ -12,7 +12,7 @@ const TechCard = ({ heading, cards }) => {
     <div className="border border-n-1/15 rounded-lg p-4 relative">
       <div className="blur-bg absolute inset-0 rounded-lg"></div>
       <div className="flex justify-center lg:justify-start mb-2">
-        <h6 className="text-lg md:text-xl lg:text-2xl overflow-hidden whitespace-nowrap overflow-ellipsis max-w-full">
+        <h6 className="text-lg md:text-2xl lg:text-2xl sm:text-2xl  overflow-hidden whitespace-nowrap overflow-ellipsis max-w-full">
           {heading}
         </h6>
       </div>
