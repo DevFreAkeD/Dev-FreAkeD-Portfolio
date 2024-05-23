@@ -17,7 +17,13 @@ import {
   bootstrap,
   vercel,
   reactjs,
-  npm
+  npm,
+  dalleproject,
+  spotifyproject,
+  discordproject,
+  githubcover,
+  codevcompile,
+  typingtester,
 } from "../assets"
 
 export const navigation = [
@@ -134,5 +140,36 @@ export const socials = [
     title: "Facebook",
     iconUrl: facebook,
     url: "#",
+  },
+];
+
+export const projects = [
+  {
+    id: "0",
+    title: "CoDevCompile",
+    text: "ReactJS, ViteJS, JavaScript, ExpressJS, TailwindCSS, CompileX API",
+    imageUrl: codevcompile,
+    colorful: true,
+  },
+  {
+    id: "1",
+    title: "Typiing Tester",
+    text: "HTML, CSS, JavaScript",
+    imageUrl: typingtester,
+    colorful: true,
+  },
+  /*{
+    id: "2",
+    title: "Spotify Clone",
+    text: "HTML, CSS, ReactJS, JavaScript, ExpressJS",
+    imageUrl: spotifyproject,
+    colorful: true,
+  },*/
+  {
+    id: "3",
+    title: "More Projects",
+    text: "Aviation Life(SA:MP), CurRate Converter, Online Signature Generator and Many More",
+    imageUrl: githubcover,
+    colorful: true,
   },
 ];
