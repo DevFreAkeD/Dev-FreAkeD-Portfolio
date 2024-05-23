@@ -3,6 +3,7 @@ import Header from "./componenets/Header"
 import Hero from "./componenets/Hero"
 import Footer from "./componenets/Footer";
 import TechStack from "./componenets/TechStack";
+import Projects from "./componenets/Projects";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Header />
         <Hero />
         <TechStack />
+        <Projects />
         <Footer />
       </div>
 
