@@ -33,6 +33,7 @@ const Projects = () => {
             <a
               href={item.url}
               key={item.id}
+              target="_blank"
               className={`md:flex even:md:translate-y-[2.5rem] p-0.25 rounded-[1.25rem] ${
                 item.colorful ? "bg-conic-gradient" : "bg-n-6"
               }`}
