@@ -7,7 +7,7 @@ import { useLocation } from "react-router-dom";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
-//import { disablePageScroll, enablePageScroll } from "scroll-lock";
+import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 const Header = () => {
   const { hash: pathname } = useLocation(); // Destructuring to get the hash from location
@@ -16,17 +16,17 @@ const Header = () => {
   const toggleNavigation = () => {
     if (openNavigation) {
       setOpenNavigation(false);
-      //enablePageScroll();
+      enablePageScroll();
     } else {
       setOpenNavigation(true);
-      //disablePageScroll();
+      disablePageScroll();
     }
   };
 
   const handleClick = () => {
     if (!openNavigation) return;
 
-    //enablePageScroll();
+    enablePageScroll();
     setOpenNavigation(false);
   };
 
@@ -47,7 +47,7 @@ const Header = () => {
                 {item.title}
               </a>
             ))}
-            <Button className="hidden lg:flex" href="#connect">
+            <Button className="hidden lg:flex" href="https://x.com/Dev_FreAkeD">
               Connect With Me
             </Button>
           </div>
