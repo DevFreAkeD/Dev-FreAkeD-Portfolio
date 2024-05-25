@@ -29,46 +29,45 @@ const Projects = () => {
       <SectionGradient />
       <div className="container mt-7">
         <div className="relative grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 md:gap-6 pb-[7rem]">
-          {projects.map((item) => {
-            return (
-              <div
-                className={`md:flex even:md:translate-y-[2.5rem] p-0.25 rounded-[1.25rem] ${
-                  item.colorful ? "bg-conic-gradient" : "bg-n-6"
-                }`}
-                key={item.id}
-                style={{ height: "100%" }}
-              >
-                <div className="relative p-4 bg-n-8 rounded-[1.25rem] overflow-hidden flex flex-col justify-between h-full">
-                  <div className="absolute top-0 left-0">
-                    <img
-                      className="w-full"
-                      src={grid}
-                      width={300}
-                      height={300}
-                      alt="Grid"
-                    />
+          {projects.map((item) => (
+            <a
+              href={item.url}
+              key={item.id}
+              className={`md:flex even:md:translate-y-[2.5rem] p-0.25 rounded-[1.25rem] ${
+                item.colorful ? "bg-conic-gradient" : "bg-n-6"
+              }`}
+              style={{ height: "100%" }}
+            >
+              <div className="relative p-4 bg-n-8 rounded-[1.25rem] overflow-hidden flex flex-col justify-between h-full">
+                <div className="absolute top-0 left-0">
+                  <img
+                    className="w-full"
+                    src={grid}
+                    width={300}
+                    height={300}
+                    alt="Grid"
+                  />
+                </div>
+                <div className="relative z-1 flex flex-col justify-between">
+                  <div>
+                    <div className="mb-5">
+                      <img
+                        className="w-full"
+                        src={item.imageUrl}
+                        width={200}
+                        height={120}
+                        alt={item.title}
+                      />
+                    </div>
                   </div>
-                  <div className="relative z-1 flex flex-col justify-between">
-                    <div>
-                      <div className="mb-5">
-                        <img
-                          className="w-full"
-                          src={item.imageUrl}
-                          width={200}
-                          height={120}
-                          alt={item.title}
-                        />
-                      </div>
-                    </div>
-                    <div>
-                      <h6 className="h5 mb-2">{item.title}</h6>
-                      <p className="body-4 text-n-4">{item.text}</p>
-                    </div>
+                  <div>
+                    <h6 className="h5 mb-2">{item.title}</h6>
+                    <p className="body-4 text-n-4">{item.text}</p>
                   </div>
                 </div>
               </div>
-            );
-          })}
+            </a>
+          ))}
         </div>
       </div>
     </Section>
