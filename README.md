@@ -15,7 +15,7 @@ This is my personal portfolio built with Vite + React.
 2. <b>Cool Gradients:</b> Enhances visuals with stylish gradients using Tailwind CSS for cards, buttons, etc.
 3. <b>Responsive:</b> Ensures seamless functionality and aesthetics across all devices.
 4. <Resuable Assets/Design:<b> Thanks to JavaScript Mastery
-5. 
+
 and many more, including code architecture and reusability
 
 ## 🖥️ Live Link
