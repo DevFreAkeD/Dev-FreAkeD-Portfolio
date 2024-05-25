@@ -109,37 +109,37 @@ export const socials = [
     id: "0",
     title: "Github",
     iconUrl: github,
-    url: "#",
+    url: "https://github.com/DevFreAkeD",
   },
   {
     id: "1",
     title: "X",
     iconUrl: twitter,
-    url: "#",
+    url: "https://x.com/Dev_FreAkeD",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://instagram.com/",
   },
   {
     id: "3",
     title: "Discord",
     iconUrl: discord,
-    url: "#",
+    url: "https://discord.com/users/327634006222831616",
   },
   {
     id: "4",
     title: "LinkedIn",
     iconUrl: linkedin,
-    url: "#",
+    url: "https://www.linkedin.com/in/dev-tushar-nagar/",
   },
   {
     id: "5",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "https://facebook.com",
   },
 ];
 
@@ -149,6 +149,7 @@ export const projects = [
     title: "CoDevCompile",
     text: "ReactJS, ViteJS, JavaScript, ExpressJS, TailwindCSS, CompileX API",
     imageUrl: codevcompile,
+    url: "https://github.com/DevFreAkeD/CoDevCompile",
     colorful: true,
   },
   {
@@ -156,20 +157,15 @@ export const projects = [
     title: "Typing Tester",
     text: "HTML, CSS, JavaScript",
     imageUrl: typingtester,
+    url: "https://github.com/DevFreAkeD/Typing-Tester",
     colorful: true,
   },
-  /*{
-    id: "2",
-    title: "Spotify Clone",
-    text: "HTML, CSS, ReactJS, JavaScript, ExpressJS",
-    imageUrl: spotifyproject,
-    colorful: true,
-  },*/
   {
-    id: "3",
+    id: "2",
     title: "More Projects",
     text: "Aviation Life(SA:MP), CurRate Converter, Online Signature Generator and Many More",
     imageUrl: githubcover,
+    url: "https://github.com/DevFreAkeD?tab=repositories",
     colorful: true,
   },
 ];
