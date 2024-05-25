@@ -1,5 +1,5 @@
 import Section from "./Section";
-import { curve, heroBackground } from "../assets"; // Assuming you have imported the background image
+import { curve, heroBackground } from "../assets";
 import useTypingEffect from "./js/TypingEffect";
 import Button from "./Button";
 
@@ -32,8 +32,8 @@ const Hero = () => {
             I am {text}
 
           </p>
-          <Button href="/pricing" white>
-            Contact Me
+          <Button href="https://x.com/Dev_FreAkeD" white>
+            Connect With Me
           </Button>
         </div>
       </div>
