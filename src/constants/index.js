@@ -147,7 +147,7 @@ export const projects = [
   {
     id: "0",
     title: "CoDevCompile",
-    text: "ReactJS, ViteJS, JavaScript, ExpressJS, TailwindCSS, CompileX API",
+    text: "React + Vite, JavaScript, TailwindCSS, Judge0 API and Monaco Editor.",
     imageUrl: codevcompile,
     url: "https://github.com/DevFreAkeD/CoDevCompile",
     colorful: true,
@@ -163,7 +163,7 @@ export const projects = [
   {
     id: "2",
     title: "More Projects",
-    text: "Aviation Life(SA:MP), CurRate Converter, Online Signature Generator and Many More",
+    text: "Aviation Life(SA:MP), CurRate Converter, Online Signature Generator, URL Shortner and Many More",
     imageUrl: githubcover,
     url: "https://github.com/DevFreAkeD?tab=repositories",
     colorful: true,
