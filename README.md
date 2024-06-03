@@ -14,9 +14,9 @@ This is my personal portfolio built with Vite + React.
 1. <b>Beautiful Sections:</b> Includes Header, Hero, Tech Stack, Project and Footer
 2. <b>Cool Gradients:</b> Enhances visuals with stylish gradients using Tailwind CSS for cards, buttons, etc.
 3. <b>Responsive:</b> Ensures seamless functionality and aesthetics across all devices.
-4. <b>Resuable Assets/Design:</b> Thanks to JavaScript Mastery
+4. <b>Resuable Assets/Design:</b> Thanks to JavaScript Mastery.
 
 and many more, including code architecture and reusability
 
 ## 🖥️ Live Link
-<a href="https://dev-freaked.vercel.app/">Click Here</a>
+FreAkeD's Portfolio: <a href="https://dev-freaked.vercel.app/">Click Here</a>
