@@ -162,6 +162,14 @@ export const projects = [
   },
   {
     id: "2",
+    title: "Dall-E Clone",
+    text: "React + Vite, JavaScript, TailwindCSS, ExpressJS and OpenAPI",
+    imageUrl: dalleproject,
+    url: "https://github.com/DevFreAkeD/Dall-E-Clone",
+    colorful: true,
+  },
+  {
+    id: "3",
     title: "More Projects",
     text: "Aviation Life(SA:MP), CurRate Converter, Online Signature Generator, URL Shortner and Many More",
     imageUrl: githubcover,
