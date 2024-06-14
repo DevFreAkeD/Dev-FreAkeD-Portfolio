@@ -27,10 +27,10 @@ import tailwind from "./techstack/tailwind.svg"
 import tools from "./techstack/tools-icon.png"
 import discordproject from "./projects/discord-clone.png"
 import spotifyproject from "./projects/spotify-clone.png"
-import dalleproject from "./projects/dalle-clone.png"
 import githubcover from "./projects/github-cover.png"
 import codevcompile from "./projects/CoDevCompile.png"
 import typingtester from "./projects/typing-tester.png"
+import dalleproject from "./projects/dall-e-clone.png"
 
 export {
   freaked,
