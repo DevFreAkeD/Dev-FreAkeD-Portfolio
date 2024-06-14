@@ -28,7 +28,7 @@ const Projects = () => {
       </div>
       <SectionGradient />
       <div className="container mt-7">
-        <div className="relative grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 md:gap-6 pb-[7rem]">
+        <div className="relative grid gap-4 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-3 md:gap-6 pb-[7rem]">
           {projects.map((item) => (
             <a
               href={item.url}
