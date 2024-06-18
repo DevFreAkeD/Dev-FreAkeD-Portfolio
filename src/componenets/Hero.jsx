@@ -50,7 +50,7 @@ const Hero = () => {
             />
           </span>
           <p className="body-1 mx-50 pt-5 mb-6 text-n-2 lg:mb-6">
-          I'm <b>Tushar Nagar</b>, also known as <b>FreAkeD</b> in the gaming world. I began my coding journey in 2017, scripting for SA-MP servers.
+          I'm <b>Tushar Singh</b>, also known as <b>FreAkeD</b> in the gaming world. I began my coding journey in 2017, scripting for SA-MP servers.
           As a front-end enthusiast, I'm currently expanding my skills to become a full-stack developer.
           I love gaming and am passionate about exploring and growing in tech.
           </p>
