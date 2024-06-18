@@ -18,7 +18,7 @@ const Hero = () => {
           <h1 className="h1 mb-6">
             Hello,&nbsp;I&nbsp;Am {` `}
             <span className="inline-block relative">
-             Tushar Nagar.
+             Tushar Singh.
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
