@@ -39,7 +39,7 @@ const Hero = () => {
       </div>
       <div className="container relative z-2 text-center"> {/* Centering text */}
         <h1 className="h3 mb-6 inline-block relative"> {/* Using inline-block to allow positioning */}
-          <span className="inline-block relative">
+          <span className="inline-block relative font-code text-transform: uppercase">
             About Me
             <img
               src={curve}
