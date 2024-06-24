@@ -13,8 +13,8 @@ const Projects = () => {
       id="projects"
     >
       <div className="container relative z-2 text-center">
-        <h1 className="h4 mb-6 inline-block relative">
-          <span className="inline-block relative">
+        <h1 className="h4 mb-6 inline-block relative font-">
+          <span className="inline-block relative font-code text-transform: uppercase">
             Projects
             <img
               src={curve}
