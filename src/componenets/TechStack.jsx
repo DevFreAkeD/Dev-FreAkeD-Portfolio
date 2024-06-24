@@ -15,7 +15,7 @@ const TechStack = () => {
       id="tech-stack"
     >
       <div className="container relative z-2 text-center">
-        <h1 className="h3 mb-6 inline-block relative font-code">
+        <h1 className="h3 mb-6 inline-block relative font-code text-transform: uppercase">
           <span className="inline-block relative">
             Tech Stack
             <img
