@@ -56,8 +56,9 @@ const TechStack = () => {
               cards={[
                 {
                   buttons: [
-                    { text: "ReactJS", color: "green" },
-                    { text: "TailwindCSS", color: "blue" },
+                    { text: "ReactJS", color: "blue" },
+                    { text: "VueJS", color: "green" },
+                    { text: "TailwindCSS", color: "gray" },
                     { text: "Bootstrap", color: "purple" },
                     { text: "ExpressJS", color: "yellow" },
                   ],
@@ -73,7 +74,6 @@ const TechStack = () => {
                     { text: "MySQL", color: "blue" },
                     { text: "MongoDB", color: "green" },
                     { text: "SQL Lite", color: "purple" },
-                    { text: "PostgreSQL", color: "orange" },
                   ],
                 },
               ]}
@@ -84,13 +84,11 @@ const TechStack = () => {
               cards={[
                 {
                   buttons: [
-                    { text: "NPM", color: "yellow" },
                     { text: "NodeJS", color: "green" },
                     { text: "Vercel", color: "gray" },
-                    { text: "ViteJS", color: "red" },
                     { text: "Figma", color: "purple" },
-                    { text: "PHPMyAdmin", color: "orange" },
                     { text: "Netlify", color: "red" },
+                    { text: "Git", color: "orange" },
                     { text: "GitHub", color: "blue" },
                   ],
                 },
