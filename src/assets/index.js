@@ -31,6 +31,7 @@ import githubcover from "./projects/github-cover.png"
 import codevcompile from "./projects/CoDevCompile.png"
 import typingtester from "./projects/typing-tester.png"
 import dalleproject from "./projects/dall-e-clone.png"
+import geminiclone from "./projects/gemini-clone.png"
 
 export {
   freaked,
@@ -66,4 +67,5 @@ export {
   githubcover,
   codevcompile,
   typingtester,
+  geminiclone,
 };
