@@ -172,7 +172,7 @@ export const projects = [
   {
     id: "3",
     title: "More Projects",
-    text: "Aviation Life(SA:MP), CurRate Converter, Online Signature Generator, URL Shortner and Many More",
+    text: "Aviation Life(SA:MP), Personal Portfolio, CurRate Converter, Online Signature Drawer, Typing-Tester and Many More",
     imageUrl: githubcover,
     url: "https://github.com/DevFreAkeD?tab=repositories",
     colorful: true,
