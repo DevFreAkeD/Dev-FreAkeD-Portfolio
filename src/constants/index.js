@@ -164,7 +164,7 @@ export const projects = [
   {
     id: "2",
     title: "Gemini Clone",
-    text: "VueJS, Tailwind, JavaScript, NodeJS, Express, Google Generative AI and MongoDB.",
+    text: "JavaScript, VueJS, TailwinfCSS, NodeJS, Express, Google Generative AI and MongoDB.",
     imageUrl: geminiclone,
     url: "https://github.com/DevFreAkeD/Gemini",
     colorful: true,
