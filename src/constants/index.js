@@ -24,6 +24,7 @@ import {
   githubcover,
   codevcompile,
   typingtester,
+  geminiclone,
 } from "../assets"
 
 export const navigation = [
@@ -162,10 +163,10 @@ export const projects = [
   },
   {
     id: "2",
-    title: "Typing Tester",
-    text: "HTML, CSS, JavaScript",
-    imageUrl: typingtester,
-    url: "https://github.com/DevFreAkeD/Typing-Tester",
+    title: "Gemini Clone",
+    text: "VueJS, Tailwind, JavaScript, NodeJS, Express, Google Generative AI and MongoDB.",
+    imageUrl: geminiclone,
+    url: "https://github.com/DevFreAkeD/Gemini",
     colorful: true,
   },
   {
