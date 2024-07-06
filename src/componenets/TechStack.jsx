@@ -40,12 +40,11 @@ const TechStack = () => {
                 {
                   buttons: [
                     { text: "C", color: "blue" },
-                    { text: "C++", color: "green" },
+                    { text: "C++", color: "red" },
                     { text: "HTML", color: "purple" },
                     { text: "Python", color: "gray" },
                     { text: "CSS", color: "orange" },
                     { text: "JavaScript", color: "yellow" },
-                    { text: "Java", color: "red" },
                   ],
                 },
               ]}
