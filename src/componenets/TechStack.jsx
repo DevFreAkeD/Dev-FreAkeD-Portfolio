@@ -85,10 +85,12 @@ const TechStack = () => {
                   buttons: [
                     { text: "NodeJS", color: "green" },
                     { text: "Vercel", color: "gray" },
-                    { text: "Figma", color: "purple" },
                     { text: "Netlify", color: "red" },
                     { text: "Git", color: "orange" },
                     { text: "GitHub", color: "blue" },
+                    { text: "Figma", color: "yellow" },
+                    { text: "Firebase", color: "orange" },
+                    { text: "Redux", color: "purple" },
                   ],
                 },
               ]}
